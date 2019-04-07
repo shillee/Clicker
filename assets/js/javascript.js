@@ -17,7 +17,7 @@ function add() {
 function upgradeCloud() {
     if (blob >= cost) {
         blob -= cost;
-        document.getElementById('text').value -= 50;
+        document.getElementById('text').value -= cost;
         xM *= 2;    //Коэффициент увеличения эфективности прокачки (менять 2 на любое значение)
         cost += (cost / 2 );  //Коэффициент увеличения стоимости прокачки (менять 2 на любое значение)
         console.log(cost); //Цена прокачки твоего облака
