@@ -2,4 +2,13 @@
   padding: 0;
   margin: 0;
 }
+
+img {
+  padding: 30px;
+  margin-left: 40px;
+}
+
+p {
+  padding: 15px;
+}
 /*# sourceMappingURL=style.css.map */
