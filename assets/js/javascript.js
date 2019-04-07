@@ -1,15 +1,14 @@
 var blob = 0;
+
 window.onload = function () {
-    blob = localStorage.getItem('bolbcunt');
     blob = parseInt(blob);
     document.getElementById('text').value = blob;
-    
+    blob = localStorage.getItem('bolbcunt');
 }
-
 function add() {
-    blob++;
+    blob++
     document.getElementById('text').value = blob;
+    document.title = blob + ' Blob';
     localStorage.setItem('bolbcunt', blob);
 }
-
 
