@@ -4,16 +4,20 @@
         window.onload = function () {
         xM = parseInt(xM);
         blob = parseInt(blob);
+        cost = parseInt(cost);
         document.getElementById('text').value = blob;
     }
+    cost = localStorage.getItem('costVar') > 50 ? cost=localStorage.getItem('costVar') : cost=50;
     xM = localStorage.getItem('xMvar') > 1 ? xM=localStorage.getItem('xMvar') : xM=1;
     blob = localStorage.getItem('bolbcunt') > 0 ? blob=localStorage.getItem('bolbcunt') : b=0;
 
     function add() {
+        localStorage.setItem('costVar', cost);
         localStorage.setItem('bolbcunt', blob);
         localStorage.setItem('xMvar', xM);
         document.getElementById('text').value = blob;
-        document.getElementById('ammountAutoClick').innerHTML = 'You own ' + xM + ' cloud XUP';
+        document.getElementById('ammountAutoClick').innerHTML = 'You own: ' + xM + ' cloud XUP';
+        document.getElementById('costAutoClick').innerHTML = 'cloud price: ' + cost;
         document.title = blob + ' Blob';
         blob += xM;
     }
