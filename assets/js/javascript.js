@@ -13,6 +13,7 @@
         localStorage.setItem('bolbcunt', blob);
         localStorage.setItem('xMvar', xM);
         document.getElementById('text').value = blob;
+        document.getElementById('ammountAutoClick').innerHTML = 'You own ' + xM + ' cloud XUP';
         document.title = blob + ' Blob';
         blob += xM;
     }
@@ -22,7 +23,7 @@
             blob -= cost;
             document.getElementById('text').value -= cost;
             xM *= Math.floor(2); 
-            cost += Math.floor(cost / 0.8);
+            cost += Math.floor(cost / 0.6);
             console.log(cost);
         }else{
             alert('Недостаточно средств!');

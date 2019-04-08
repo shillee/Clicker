@@ -11,4 +11,16 @@ img {
 p {
   padding: 15px;
 }
+
+button {
+  padding: 15px;
+  margin-left: 15px;
+  color: black;
+}
+
+button a {
+  text-decoration: none;
+  color: #000000;
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */
