@@ -12,6 +12,10 @@ p {
   padding: 15px;
 }
 
+h2 {
+  padding: 15px;
+}
+
 button {
   padding: 15px;
   margin-left: 15px;
@@ -22,5 +26,6 @@ button a {
   text-decoration: none;
   color: #000000;
   border: none;
+  font-size: 27px;
 }
 /*# sourceMappingURL=style.css.map */
