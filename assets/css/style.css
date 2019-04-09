@@ -1,6 +1,9 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Arial;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 img {
@@ -17,8 +20,8 @@ h2 {
 }
 
 button {
-  padding: 15px;
-  margin-left: 15px;
+  padding: 20px;
+  margin: 20px;
   color: black;
 }
 
@@ -27,5 +30,149 @@ button a {
   color: #000000;
   border: none;
   font-size: 27px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.inpet-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+.inpet-text input {
+  width: 400px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+  font-size: 35px;
+  color: #000000;
+}
+
+.x-up button {
+  border: none;
+  border-bottom: 3px solid #4652B4;
+  border-right: 3px solid #4652B4;
+  background-color: #4682B4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.x-up button a {
+  color: #ffffff;
+}
+
+.x-up h2 {
+  font-size: 30px;
+}
+
+.autocloud h2 {
+  font-size: 30px;
+}
+
+.but h2 {
+  font-size: 30px;
+}
+
+.inpet-text {
+  margin-bottom: 30px;
+}
+
+.row {
+  background-color: #AFEEEE;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.autocloud button {
+  border: none;
+  border-bottom: 3px solid #4652B4;
+  border-right: 3px solid #4652B4;
+  background-color: #4682B4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.autocloud button a {
+  color: #ffffff;
+}
+
+.but button {
+  border: none;
+  border-bottom: 3px solid #4652B4;
+  border-right: 3px solid #4652B4;
+  background-color: #4682B4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.but button a {
+  color: #ffffff;
+}
+
+.x-up button:hover {
+  background-color: #468233;
+  border-bottom: 2px solid #466111;
+  border-right: 2px solid #466111;
+}
+
+.autocloud button:hover {
+  background-color: #468233;
+  border-bottom: 2px solid #466111;
+  border-right: 2px solid #466111;
+}
+
+.but button:hover {
+  background-color: #468233;
+  border-bottom: 2px solid #466111;
+  border-right: 2px solid #466111;
+}
+
+#costAutoClick {
+  font-size: 20px;
+}
+
+#costAutoCloud {
+  font-size: 20px;
+}
+
+#costButCloud {
+  font-size: 20px;
+}
+
+#ammountAutoClick {
+  font-size: 18px;
+}
+
+#ownAutoCloud {
+  font-size: 18px;
+}
+
+#butCloud {
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */

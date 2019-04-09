@@ -2,28 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Water drop game</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/javascript.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Water drop game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/javascript.js"></script>
 </head>
 
 <body>
-  <a onclick="add()" href="#"><img src="img/cloud.png" width="400"></a>
-    <p>You got:  <input type="text" id="text" disabled style="text-align:center"> cloud</p><br/>
+  <div class="header">
+      <a onclick="add()" href="#"><img src="img/cloud.png" width="400"></a>
+  </div>
+  <div class="inpet-text">
+      <p>You got: <input type="text" id="text" disabled style="text-align:center"> cloud</p>
+
+  </div>
+
+<div class="row">
+  <div class="x-up">
     <h2>cloud X-UP</h2>
     <button><a href="#" onclick="upgradeCloud()">Upgrade cloud</a></button>
     <p id="costAutoClick">cloud X-UP price: </p>
-    <h4><p id="ammountAutoClick">You own: 0 cloud X-UP</p></h4>
+    <h4>
+      <p id="ammountAutoClick">You own: 0 cloud X-UP</p>
+    </h4>
+  </div>
 
-
-    <br><br>
+  <div class="autocloud">
     <h2>Auto cloud</h2>
     <button><a href="#" onclick="autoUpgradeCloud()">Buy auto cloud</a></button>
     <p id="costAutoCloud">Auto cloud price: </p>
-    <h4><p id="ownAutoCloud">You own: 0 auto cloud</p></h4> 
+    <h4>
+      <p id="ownAutoCloud">You own: 0 auto cloud</p>
+    </h4>
+  </div>
+
+  <div class="but">
+    <h2>But</h2>
+    <button><a href="#" onclick="butUpgradeCloud()">Buy but cloud</a></button>
+    <p id="costButCloud">But price: </p>
+    <h4>
+      <p id="butCloud">You own: 0 But</p>
+    </h4>
+  </div>
+</div>
+
+  
+
 
 
 </body>
